@@ -1,6 +1,6 @@
 # Site for the Mood
 
-[TODO. There will be project description]
+Site with black humor. Example: [Click](https://ranc58.github.io/20_mood/)
 
 # Project Goals
 
