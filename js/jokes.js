@@ -1,5 +1,4 @@
-$(document).ready(function(){
-   var json_content=[
+var json_content=[
       {
         "phrase": "Чувство черного юмора - как ноги. У кого-то есть, а у кого-то нет.",
       },
@@ -39,9 +38,6 @@ $(document).ready(function(){
       {
         "phrase": "Бабушка, скажите, пожалуйста, вы, может быть, поторопитесь? У нас-то время еще есть... А вот у вас, по-моему, не очень."
       }
-    ]
-     $(function(){
-        var rand = Math.floor(Math.random() * json_content.length);
-            $(".lead").html(json_content[rand].phrase);
-        });
-});
+    ];
+  var rand = Math.floor(Math.random() * json_content.length);
+  document.querySelector(".js-joke").innerText=json_content[rand].phrase;
